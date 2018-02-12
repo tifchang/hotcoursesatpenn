@@ -1,0 +1,3200 @@
+[
+  {
+    "course": "CIS-110"
+  },
+  {
+    "course": "CIS-160"
+  },
+  {
+    "course": "CIS-530"
+  },
+  {
+    "course": "CIS-545"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "FNAR-234"
+  },
+  {
+    "course": "STAT-476"
+  },
+  {
+    "course": "FNCE-101"
+  },
+  {
+    "course": "CIS-120"
+  },
+  {
+    "course": "STAT-430"
+  },
+  {
+    "course": "COMM-395"
+  },
+  {
+    "course": "COMM-203"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "HSOC-010"
+  },
+  {
+    "course": "HSOC-010"
+  },
+  {
+    "course": "FNAR-258"
+  },
+  {
+    "course": "FNCE-203"
+  },
+  {
+    "course": "FNCE-203"
+  },
+  {
+    "course": "FNCE-100"
+  },
+  {
+    "course": "PSCI-207"
+  },
+  {
+    "course": "GEOL-130"
+  },
+  {
+    "course": "CIS-580"
+  },
+  {
+    "course": "ANTH-086"
+  },
+  {
+    "course": "ENGL-338"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "STAT-430"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "STAT-471"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "CIS-545"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "PHIL-015"
+  },
+  {
+    "course": "CIMS-101"
+  },
+  {
+    "course": "STAT-476"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "WRIT-077"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "WRIT-073"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "MGMT-104"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "STAT-102"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "PSCI-150"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "MATH-313"
+  },
+  {
+    "course": "NURS-395"
+  },
+  {
+    "course": "MKTG-476"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "MKTG-476"
+  },
+  {
+    "course": "STAT-432"
+  },
+  {
+    "course": "CIS-320"
+  },
+  {
+    "course": "REAL-209"
+  },
+  {
+    "course": "FNCE-101"
+  },
+  {
+    "course": "REAL-209"
+  },
+  {
+    "course": "FNCE-100"
+  },
+  {
+    "course": "FNCE-100"
+  },
+  {
+    "course": "FNCE-100"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "FNCE-100"
+  },
+  {
+    "course": "FNCE-207"
+  },
+  {
+    "course": "PSYC-170"
+  },
+  {
+    "course": "PPE-153"
+  },
+  {
+    "course": "PSYC-170"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "PSYC-253"
+  },
+  {
+    "course": "PSYC-253"
+  },
+  {
+    "course": "BIOL-204"
+  },
+  {
+    "course": "HCMG-203"
+  },
+  {
+    "course": "MATH-314"
+  },
+  {
+    "course": "CIMS-061"
+  },
+  {
+    "course": "MATH-314"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "ENGL-079"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "ASTR-001"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "ENVS-100"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "ITAL-204"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "SPAN-208"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "RUSS-197"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "STAT-431"
+  },
+  {
+    "course": "STAT-431"
+  },
+  {
+    "course": "MATH-312"
+  },
+  {
+    "course": "COMM-393"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "ACCT-102"
+  },
+  {
+    "course": "BIOL-102"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "PSCI-333"
+  },
+  {
+    "course": "CIMS-206"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "MGMT-224"
+  },
+  {
+    "course": "CHIN-012"
+  },
+  {
+    "course": "AFRC-187"
+  },
+  {
+    "course": "CHIN-012"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "FNCE-205"
+  },
+  {
+    "course": "FNCE-254"
+  },
+  {
+    "course": "BIOL-102"
+  },
+  {
+    "course": "ECON-235"
+  },
+  {
+    "course": "EALC-064"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "CIS-505"
+  },
+  {
+    "course": "MEAM-101"
+  },
+  {
+    "course": "ESE-224"
+  },
+  {
+    "course": "CIS-419"
+  },
+  {
+    "course": "CHIN-232"
+  },
+  {
+    "course": "MKTG-351"
+  },
+  {
+    "course": "MKTG-351"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "BIBB-060"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "STAT-430"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "CIS-519"
+  },
+  {
+    "course": "STAT-476"
+  },
+  {
+    "course": "ECON-212"
+  },
+  {
+    "course": "OIDD-236"
+  },
+  {
+    "course": "SPAN-130"
+  },
+  {
+    "course": "LGST-227"
+  },
+  {
+    "course": "PSYC-440"
+  },
+  {
+    "course": "SAST-180"
+  },
+  {
+    "course": "ANTH-347"
+  },
+  {
+    "course": "OIDD-215"
+  },
+  {
+    "course": "ITAL-120"
+  },
+  {
+    "course": "GEOL-130"
+  },
+  {
+    "course": "PHIL-008"
+  },
+  {
+    "course": "BIBB-421"
+  },
+  {
+    "course": "MGMT-291"
+  },
+  {
+    "course": "ARAB-034"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "CHIN-032"
+  },
+  {
+    "course": "PPE-153"
+  },
+  {
+    "course": "CIMS-061"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "FNAR-343"
+  },
+  {
+    "course": "HSOC-335"
+  },
+  {
+    "course": "MGMT-104"
+  },
+  {
+    "course": "PHIL-271"
+  },
+  {
+    "course": "EAS-595"
+  },
+  {
+    "course": "MEAM-101"
+  },
+  {
+    "course": "NELC-254"
+  },
+  {
+    "course": "HCMG-101"
+  },
+  {
+    "course": "PSYC-462"
+  },
+  {
+    "course": "MATH-312"
+  },
+  {
+    "course": "NURS-163"
+  },
+  {
+    "course": "NURS-163"
+  },
+  {
+    "course": "BEPP-203"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "BEPP-203"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "BEPP-208"
+  },
+  {
+    "course": "PSCI-110"
+  },
+  {
+    "course": "SOCI-270"
+  },
+  {
+    "course": "BEPP-208"
+  },
+  {
+    "course": "CIS-110"
+  },
+  {
+    "course": "GSWS-002"
+  },
+  {
+    "course": "URBS-270"
+  },
+  {
+    "course": "WRIT-021"
+  },
+  {
+    "course": "CRIM-270"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "BEPP-233"
+  },
+  {
+    "course": "WRIT-013"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "AFRC-101"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "WRIT 002 301-"
+  },
+  {
+    "course": "NETS-412"
+  },
+  {
+    "course": "ENGL-003"
+  },
+  {
+    "course": "ENGL-091"
+  },
+  {
+    "course": "ANTH-386"
+  },
+  {
+    "course": "WRIT-011"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "ENGL-126"
+  },
+  {
+    "course": "FREN-120"
+  },
+  {
+    "course": "ENGL-117"
+  },
+  {
+    "course": "CIMS-102"
+  },
+  {
+    "course": "GSWS-242"
+  },
+  {
+    "course": "BIOL-124"
+  },
+  {
+    "course": "ASAM-180"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "BIBB-585"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "CRIM-200"
+  },
+  {
+    "course": "STAT-435"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "COML-101"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "EAS-203"
+  },
+  {
+    "course": "PSYC-151"
+  },
+  {
+    "course": "BIBB-475"
+  },
+  {
+    "course": "HSOC-102"
+  },
+  {
+    "course": "ESE-224"
+  },
+  {
+    "course": "ESE-224"
+  },
+  {
+    "course": "STSC-135"
+  },
+  {
+    "course": "ESE-350"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "ESE-112"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "MATH-370"
+  },
+  {
+    "course": "NELC-235"
+  },
+  {
+    "course": "FNAR-264"
+  },
+  {
+    "course": "CIS-553"
+  },
+  {
+    "course": "COMM-123"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "CIMS-202"
+  },
+  {
+    "course": "ESE-224"
+  },
+  {
+    "course": "ESE-224"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PUBH-501"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "BIOL-006"
+  },
+  {
+    "course": "ENGL-016"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "SOCI-135"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "PHIL-430"
+  },
+  {
+    "course": "BEPP-289"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PHYS-150"
+  },
+  {
+    "course": "STAT-433"
+  },
+  {
+    "course": "CHEM-101"
+  },
+  {
+    "course": "MATH-314"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "BIOL-375"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "MGMT-100"
+  },
+  {
+    "course": "HSOC-230"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "WRIT-011"
+  },
+  {
+    "course": "SOCI-001"
+  },
+  {
+    "course": "SOCI-001"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "BIBB-482"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "BIBB-249"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "MATH-360"
+  },
+  {
+    "course": "CIS-390"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "PSCI-272"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "COML-193"
+  },
+  {
+    "course": "PHYS-585"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "BIBB-475"
+  },
+  {
+    "course": "COMM-245"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "BIOL-109"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "BIOL-109"
+  },
+  {
+    "course": "CHEM-243"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "FNAR-258"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "SPAN-130"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "WRIT-083"
+  },
+  {
+    "course": "FNAR-222"
+  },
+  {
+    "course": "PSCI-152"
+  },
+  {
+    "course": "URBS-322"
+  },
+  {
+    "course": "WRIT-031"
+  },
+  {
+    "course": "MATH-360"
+  },
+  {
+    "course": "FNCE-391"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "PSCI-152"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "PSCI-152"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "PSCI-152"
+  },
+  {
+    "course": "SPAN-390"
+  },
+  {
+    "course": "OIDD-290"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "CIMS-065"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "FREN-227"
+  },
+  {
+    "course": "FREN-227"
+  },
+  {
+    "course": "URBS-180"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "COMM-292"
+  },
+  {
+    "course": "CIMS-305"
+  },
+  {
+    "course": "STAT-430"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "ARCH-102"
+  },
+  {
+    "course": "ARCH-102"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "WRIT-013"
+  },
+  {
+    "course": "ENGL-102"
+  },
+  {
+    "course": "STAT-422"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "NELC-118"
+  },
+  {
+    "course": "CIMS-118"
+  },
+  {
+    "course": "LGST-204"
+  },
+  {
+    "course": "GSWS-118"
+  },
+  {
+    "course": "CIS-120"
+  },
+  {
+    "course": "COML-120"
+  },
+  {
+    "course": "URBS-405"
+  },
+  {
+    "course": "REAL-208"
+  },
+  {
+    "course": "ARTH-107"
+  },
+  {
+    "course": "CIMS-103"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "COML-099"
+  },
+  {
+    "course": "ENGL-078"
+  },
+  {
+    "course": "CIS-555"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "RELS-016"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "CIS-520"
+  },
+  {
+    "course": "CIS-520"
+  },
+  {
+    "course": "WRIT-037"
+  },
+  {
+    "course": "WRIT-037"
+  },
+  {
+    "course": "COMM-490"
+  },
+  {
+    "course": "INTR-350"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "ECON-262"
+  },
+  {
+    "course": "LING-106"
+  },
+  {
+    "course": "CIT-590"
+  },
+  {
+    "course": "BIBB-240"
+  },
+  {
+    "course": "CIT-590"
+  },
+  {
+    "course": "NURS-165"
+  },
+  {
+    "course": "NURS-165"
+  },
+  {
+    "course": "NURS-165"
+  },
+  {
+    "course": "NURS-165"
+  },
+  {
+    "course": "FNCE-239"
+  },
+  {
+    "course": "GSWS-003"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "ENGL-393"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "FNAR-271"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "COMM-313"
+  },
+  {
+    "course": "CHEM-101"
+  },
+  {
+    "course": "CHEM-101"
+  },
+  {
+    "course": "GSWS-004"
+  },
+  {
+    "course": "ECON-101"
+  },
+  {
+    "course": "ECON-236"
+  },
+  {
+    "course": "MKTG-212"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "ACCT-242"
+  },
+  {
+    "course": "ACCT-242"
+  },
+  {
+    "course": "ACCT-242"
+  },
+  {
+    "course": "URBS-210"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "IPD-515"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "BIBB-440"
+  },
+  {
+    "course": "ECON-252"
+  },
+  {
+    "course": "ECON-104"
+  },
+  {
+    "course": "CIS-550"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "ANTH-234"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "RELS-439"
+  },
+  {
+    "course": "MGMT-104"
+  },
+  {
+    "course": "ANTH-359"
+  },
+  {
+    "course": "NURS-313"
+  },
+  {
+    "course": "RELS-108"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "LGST-206"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "STAT-102"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "FNAR-264"
+  },
+  {
+    "course": "ARCH-316"
+  },
+  {
+    "course": "CIS-240"
+  },
+  {
+    "course": "SPAN-130"
+  },
+  {
+    "course": "PSYC-253"
+  },
+  {
+    "course": "HIST-212"
+  },
+  {
+    "course": "ENGL-010"
+  },
+  {
+    "course": "HSOC-251"
+  },
+  {
+    "course": "GEOL-100"
+  },
+  {
+    "course": "FNAR-340"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "URBS-104"
+  },
+  {
+    "course": "WRIT-025"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "NURS-065"
+  },
+  {
+    "course": "NURS-065"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "MGMT-291"
+  },
+  {
+    "course": "ACCT-102"
+  },
+  {
+    "course": "FNCE-101"
+  },
+  {
+    "course": "FNCE-238"
+  },
+  {
+    "course": "STAT-101"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "PSYC-160"
+  },
+  {
+    "course": "BEPP-305"
+  },
+  {
+    "course": "BIBB-160"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "AFRC-050"
+  },
+  {
+    "course": "PSYC-070"
+  },
+  {
+    "course": "HIST-171"
+  },
+  {
+    "course": "HIST-171"
+  },
+  {
+    "course": "LGST-206"
+  },
+  {
+    "course": "ENGL-323"
+  },
+  {
+    "course": "MGMT-100"
+  },
+  {
+    "course": "MGMT-100"
+  },
+  {
+    "course": "ENGL-200"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "PSCI-217"
+  },
+  {
+    "course": "SPAN-219"
+  },
+  {
+    "course": "SPAN-223"
+  },
+  {
+    "course": "FNAR-340"
+  },
+  {
+    "course": "FOLK-296"
+  },
+  {
+    "course": "BIBB-460"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "PSCI-258"
+  },
+  {
+    "course": "PSCI-237"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "SPAN-396"
+  },
+  {
+    "course": "MUSC-007"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "PSYC-462"
+  },
+  {
+    "course": "HIST-035"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "ANTH-122"
+  },
+  {
+    "course": "PSYC-472"
+  },
+  {
+    "course": "BIOL-480"
+  },
+  {
+    "course": "MEAM-514"
+  },
+  {
+    "course": "BIOL-438"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "MEAM-201"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "MEAM-248"
+  },
+  {
+    "course": "FREN-140"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "MUSC-063"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "LGST-206"
+  },
+  {
+    "course": "COMM-390"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "DCOH-708"
+  },
+  {
+    "course": "BIOL-124"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "HSOC-010"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "PUBH-507"
+  },
+  {
+    "course": "PSYC-470"
+  },
+  {
+    "course": "PSYC-470"
+  },
+  {
+    "course": "SPAN-219"
+  },
+  {
+    "course": "FNCE-239"
+  },
+  {
+    "course": "CIS-120"
+  },
+  {
+    "course": "NURS-245"
+  },
+  {
+    "course": "NURS-245"
+  },
+  {
+    "course": "NURS-245"
+  },
+  {
+    "course": "NURS-354"
+  },
+  {
+    "course": "NURS-245"
+  },
+  {
+    "course": "WRIT-076"
+  },
+  {
+    "course": "WRIT-083"
+  },
+  {
+    "course": "WRIT-083"
+  },
+  {
+    "course": "OIDD-397"
+  },
+  {
+    "course": "PSYC-470"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "NURS-330"
+  },
+  {
+    "course": "ENGL-099"
+  },
+  {
+    "course": "PSCI-227"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "PPE-312"
+  },
+  {
+    "course": "SPAN-348"
+  },
+  {
+    "course": "IPD-515"
+  },
+  {
+    "course": "MATH-514"
+  },
+  {
+    "course": "MATH-514"
+  },
+  {
+    "course": "AMCS-514"
+  },
+  {
+    "course": "AMCS-514"
+  },
+  {
+    "course": "AMCS-514"
+  },
+  {
+    "course": "REAL-204"
+  },
+  {
+    "course": "ESE-301"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "PHIL-002"
+  },
+  {
+    "course": "PHIL-002"
+  },
+  {
+    "course": "PHIL-002"
+  },
+  {
+    "course": "PHIL-002"
+  },
+  {
+    "course": "PHIL-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "OIDD-291"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "LAW-507"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "SPAN-120"
+  },
+  {
+    "course": "PSYC-539"
+  },
+  {
+    "course": "CIMS-061"
+  },
+  {
+    "course": "WRIT-028"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "SPAN-212"
+  },
+  {
+    "course": "FOLK-101"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "AFRC-135"
+  },
+  {
+    "course": "PHYS-141"
+  },
+  {
+    "course": "BEPP-284"
+  },
+  {
+    "course": "PSYC-109"
+  },
+  {
+    "course": "INTR-290"
+  },
+  {
+    "course": "STAT-101"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "SAST-107"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "FNAR-250"
+  },
+  {
+    "course": "CIS-511"
+  },
+  {
+    "course": "PSCI-151"
+  },
+  {
+    "course": "PSCI-151"
+  },
+  {
+    "course": "PSCI-151"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "URBS-359"
+  },
+  {
+    "course": "PSCI-335"
+  },
+  {
+    "course": "CHEM-010"
+  },
+  {
+    "course": "COMM-530"
+  },
+  {
+    "course": "COML-197"
+  },
+  {
+    "course": "BIOL-101"
+  },
+  {
+    "course": "PHYS-360"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "CIS-450"
+  },
+  {
+    "course": "EAS-512"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "PHYS-150"
+  },
+  {
+    "course": "CIS-120"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "HIST-097"
+  },
+  {
+    "course": "FNAR-148"
+  },
+  {
+    "course": "FNAR-148"
+  },
+  {
+    "course": "STSC-260"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "MGMT-100"
+  },
+  {
+    "course": "MGMT-100"
+  },
+  {
+    "course": "BIOL-415"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "SPAN-140"
+  },
+  {
+    "course": "ECON-103"
+  },
+  {
+    "course": "MKTG-476"
+  },
+  {
+    "course": "MKTG-262"
+  },
+  {
+    "course": "BE-470"
+  },
+  {
+    "course": "BE-470"
+  },
+  {
+    "course": "SPAN-219"
+  },
+  {
+    "course": "OIDD-201"
+  },
+  {
+    "course": "OIDD-201"
+  },
+  {
+    "course": "ECON-272"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "NURS-225"
+  },
+  {
+    "course": "LGST-219"
+  },
+  {
+    "course": "LGST-221"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "COMM-217"
+  },
+  {
+    "course": "ENGL-435"
+  },
+  {
+    "course": "MKTG-278"
+  },
+  {
+    "course": "BIOL-493"
+  },
+  {
+    "course": "CHIN-112"
+  },
+  {
+    "course": "STAT-475"
+  },
+  {
+    "course": "MKTG-776"
+  },
+  {
+    "course": "MKTG-776"
+  },
+  {
+    "course": "STAT-776"
+  },
+  {
+    "course": "ARTH-108"
+  },
+  {
+    "course": "LAW-655"
+  },
+  {
+    "course": "AFRC-078"
+  },
+  {
+    "course": "AFRC-078"
+  },
+  {
+    "course": "HIST-418"
+  },
+  {
+    "course": "COML-002"
+  },
+  {
+    "course": "FNAR-570"
+  },
+  {
+    "course": "ANCH-027"
+  },
+  {
+    "course": "ANCH-027"
+  },
+  {
+    "course": "ARTH-385"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "AFRC-276"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "FNCE-395"
+  },
+  {
+    "course": "JWST-214"
+  },
+  {
+    "course": "JWST-102"
+  },
+  {
+    "course": "CIS-110"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "ANTH-063"
+  },
+  {
+    "course": "INTG-002"
+  },
+  {
+    "course": "ENGL-234"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "MEAM-203"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "PSCI-180"
+  },
+  {
+    "course": "PSCI-180"
+  },
+  {
+    "course": "PSCI-180"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "NPLD-792"
+  },
+  {
+    "course": "NPLD-796"
+  },
+  {
+    "course": "EAS-545"
+  },
+  {
+    "course": "ANTH-022"
+  },
+  {
+    "course": "FNCE-254"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "URBS-178"
+  },
+  {
+    "course": "HIST-173"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "HIST-214"
+  },
+  {
+    "course": "IPD-527"
+  },
+  {
+    "course": "CHEM-053"
+  },
+  {
+    "course": "ENGL-092"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "FNAR-340"
+  },
+  {
+    "course": "PSYC-149"
+  },
+  {
+    "course": "BIBB-492"
+  },
+  {
+    "course": "OIDD-101"
+  },
+  {
+    "course": "EALC-025"
+  },
+  {
+    "course": "SOCI-238"
+  },
+  {
+    "course": "ESE-590"
+  },
+  {
+    "course": "MGMT-291"
+  },
+  {
+    "course": "MGMT-291"
+  },
+  {
+    "course": "HIST-160"
+  },
+  {
+    "course": "MATH-241"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "OIDD-415"
+  },
+  {
+    "course": "OIDD-415"
+  },
+  {
+    "course": "MEAM-203"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "BIOL-124"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MUSC-035"
+  },
+  {
+    "course": "PSCI-236"
+  },
+  {
+    "course": "ARTH-109"
+  },
+  {
+    "course": "WRIT-028"
+  },
+  {
+    "course": "OIDD-353"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "stat 430 404-"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "BIOL-102"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "MATH-123"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "WRIT-011"
+  },
+  {
+    "course": "FNAR-150"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "CIS-121"
+  },
+  {
+    "course": "CIMS-285"
+  },
+  {
+    "course": "BIBB-233"
+  },
+  {
+    "course": "COML-108"
+  },
+  {
+    "course": "COML-108"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "BIBB-350"
+  },
+  {
+    "course": "MATH-240"
+  },
+  {
+    "course": "STAT-101"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "NURS-215"
+  },
+  {
+    "course": "ARCH-102"
+  },
+  {
+    "course": "FREN-140"
+  },
+  {
+    "course": "GSWS-349"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "CHEM-242"
+  },
+  {
+    "course": "COMM-130"
+  },
+  {
+    "course": "MKTG-227"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "BIOL-215"
+  },
+  {
+    "course": "URBS-205"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "MUSC-050"
+  },
+  {
+    "course": "ECON-103"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "FNAR-271"
+  },
+  {
+    "course": "BIOL-124"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "EAS-546"
+  },
+  {
+    "course": "HSOC-260"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "SPAN-120"
+  },
+  {
+    "course": "CHEM-054"
+  },
+  {
+    "course": "CHEM-245"
+  },
+  {
+    "course": "CHIN-112"
+  },
+  {
+    "course": "SPAN-121"
+  },
+  {
+    "course": "BIOL-215"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "SOCI-041"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "COMM-307"
+  },
+  {
+    "course": "STAT-474"
+  },
+  {
+    "course": "MATH-170"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "SOCI-100"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "NETS-150"
+  },
+  {
+    "course": "SAST-063"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "WRIT-021"
+  },
+  {
+    "course": "WRIT-074"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "WRIT-015"
+  },
+  {
+    "course": "STAT-510"
+  },
+  {
+    "course": "STAT-510"
+  },
+  {
+    "course": "STAT-510"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "WRIT-025"
+  },
+  {
+    "course": "EDUC-202"
+  },
+  {
+    "course": "NURS-165"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "BIBB-269"
+  },
+  {
+    "course": "SOCI-001"
+  },
+  {
+    "course": "CIMS-061"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "BIBB-430"
+  },
+  {
+    "course": "SPAN-130"
+  },
+  {
+    "course": "COMM-325"
+  },
+  {
+    "course": "MUSC-050"
+  },
+  {
+    "course": "COML-259"
+  },
+  {
+    "course": "BIBB-050"
+  },
+  {
+    "course": "CIMS-388"
+  },
+  {
+    "course": "HSOC-111"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "RUSS-197"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "GSWS-344"
+  },
+  {
+    "course": "ASAM-003"
+  },
+  {
+    "course": "HIST-155"
+  },
+  {
+    "course": "MATH-361"
+  },
+  {
+    "course": "STAT-422"
+  },
+  {
+    "course": "STSC-003"
+  },
+  {
+    "course": "EALC-116"
+  },
+  {
+    "course": "MEAM-348"
+  },
+  {
+    "course": "HSOC-003"
+  },
+  {
+    "course": "COML-197"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "AFRC-002"
+  },
+  {
+    "course": "SPAN-396"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "ECON-002"
+  },
+  {
+    "course": "CHEM-243"
+  },
+  {
+    "course": "PHYS-101"
+  },
+  {
+    "course": "FNAR-264"
+  },
+  {
+    "course": "ECON-102"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MUSC-030"
+  },
+  {
+    "course": "FNAR-061"
+  },
+  {
+    "course": "FNAR-061"
+  },
+  {
+    "course": "MEAM-201"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "WRIT-002"
+  },
+  {
+    "course": "PHYS-150"
+  },
+  {
+    "course": "LGST-220"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "MEAM-101"
+  },
+  {
+    "course": "EDUC-345"
+  },
+  {
+    "course": "ENGL-010"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "COMM-323"
+  },
+  {
+    "course": "PSYC-480"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "ARCH-102"
+  },
+  {
+    "course": "ARCH-102"
+  },
+  {
+    "course": "MEAM-415"
+  },
+  {
+    "course": "CHIN-012"
+  },
+  {
+    "course": "MUSC-007"
+  },
+  {
+    "course": "FREN-140"
+  },
+  {
+    "course": "HIST-107"
+  },
+  {
+    "course": "HSSC-517"
+  },
+  {
+    "course": "HSSC-667"
+  },
+  {
+    "course": "COMM-311"
+  },
+  {
+    "course": "BIOL-124"
+  },
+  {
+    "course": "CHEM-242"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "MGMT-101"
+  },
+  {
+    "course": "SPAN-397"
+  },
+  {
+    "course": "BIBB-271"
+  },
+  {
+    "course": "COML-322"
+  },
+  {
+    "course": "PSYC-477"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "BIBB-109"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "SOCI-120"
+  },
+  {
+    "course": "SOCI-120"
+  },
+  {
+    "course": "CIMS-165"
+  },
+  {
+    "course": "FNCE-101"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "PSCI-183"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "MATH-114"
+  },
+  {
+    "course": "FNCE-101"
+  },
+  {
+    "course": "COMM-209"
+  },
+  {
+    "course": "LGST-100"
+  },
+  {
+    "course": "ACCT-102"
+  },
+  {
+    "course": "AFRC-077"
+  },
+  {
+    "course": "MGMT-291"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "ECON-102"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "CHEM-101"
+  },
+  {
+    "course": "SPAN-120"
+  },
+  {
+    "course": "MEAM-101"
+  },
+  {
+    "course": "SOCI-041"
+  },
+  {
+    "course": "FNAR-266"
+  },
+  {
+    "course": "SPAN-120"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "JWST-151"
+  },
+  {
+    "course": "OIDD-290"
+  },
+  {
+    "course": "COML-123"
+  },
+  {
+    "course": "URBS-201"
+  },
+  {
+    "course": "EEUR-165"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "HSOC-111"
+  },
+  {
+    "course": "EALC-151"
+  },
+  {
+    "course": "EALC-125"
+  },
+  {
+    "course": "SOCI-004"
+  },
+  {
+    "course": "FREN-229"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "CHEM-251"
+  },
+  {
+    "course": "ACCT-102"
+  },
+  {
+    "course": "PHIL-004"
+  },
+  {
+    "course": "PHIL-004"
+  },
+  {
+    "course": "FREN-212"
+  },
+  {
+    "course": "ANTH-002"
+  },
+  {
+    "course": "MKTG-227"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "CHEM-102"
+  },
+  {
+    "course": "EALC-176"
+  },
+  {
+    "course": "PSCI-258"
+  },
+  {
+    "course": "PSCI-258"
+  },
+  {
+    "course": "ENVS-407"
+  },
+  {
+    "course": "SOCI-110"
+  },
+  {
+    "course": "PSCI-131"
+  },
+  {
+    "course": "FNAR-231"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "GEOL-125"
+  },
+  {
+    "course": "FOLK-241"
+  },
+  {
+    "course": "SOCI-010"
+  },
+  {
+    "course": "ECON-103"
+  },
+  {
+    "course": "ANTH-003"
+  },
+  {
+    "course": "PSCI-151"
+  },
+  {
+    "course": "PSCI-151"
+  },
+  {
+    "course": "LGST-206"
+  },
+  {
+    "course": "FNAR-061"
+  },
+  {
+    "course": "THAR-171"
+  },
+  {
+    "course": "PSYC-162"
+  },
+  {
+    "course": "NURS-518"
+  },
+  {
+    "course": "LGST-206"
+  },
+  {
+    "course": "WRIT-049"
+  },
+  {
+    "course": "ECON-234"
+  },
+  {
+    "course": "AFRC-225"
+  },
+  {
+    "course": "HIST-023"
+  },
+  {
+    "course": "EALC-034"
+  },
+  {
+    "course": "URBS-253"
+  },
+  {
+    "course": "SOCI-001"
+  },
+  {
+    "course": "BIOL-330"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "COML-150"
+  },
+  {
+    "course": "ENGL-085"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "STAT-711"
+  },
+  {
+    "course": "ECON-001"
+  },
+  {
+    "course": "MATH-104"
+  },
+  {
+    "course": "ARTH-102"
+  },
+  {
+    "course": "CIS-120"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "FNCE-209"
+  },
+  {
+    "course": "MUSC-050"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "ARTH-274"
+  },
+  {
+    "course": "CHEM-054"
+  },
+  {
+    "course": "SOCI-002"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "MKTG-101"
+  },
+  {
+    "course": "LING-001"
+  },
+  {
+    "course": "ENGL-295"
+  },
+  {
+    "course": "OIDD-397"
+  },
+  {
+    "course": "CPLN-502"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "WRIT-030"
+  },
+  {
+    "course": "EALC-516"
+  },
+  {
+    "course": "FREN-130"
+  },
+  {
+    "course": "NELC-156"
+  },
+  {
+    "course": "CLST-100"
+  },
+  {
+    "course": "THAR-120"
+  },
+  {
+    "course": "SAST-001"
+  },
+  {
+    "course": "HSOC-209"
+  },
+  {
+    "course": "ACCT-102"
+  },
+  {
+    "course": "ACCT-101"
+  },
+  {
+    "course": "HSOC-275"
+  },
+  {
+    "course": "STAT-111"
+  },
+  {
+    "course": "STAT-927"
+  },
+  {
+    "course": "FNAR-271"
+  },
+  {
+    "course": "BEPP-261"
+  },
+  {
+    "course": "BEPP-261"
+  },
+  {
+    "course": "SWRK-763"
+  },
+  {
+    "course": "PSYC-001"
+  },
+  {
+    "course": "SOCI-005"
+  },
+  {
+    "course": "HIST-001"
+  },
+  {
+    "course": "BEPP-250"
+  },
+  {
+    "course": "MUSC-050"
+  },
+  {
+    "course": "FNAR-316"
+  },
+  {
+    "course": "PHYS-151"
+  },
+  {
+    "course": "JWST-154"
+  },
+  {
+    "course": "PHYS-102"
+  },
+  {
+    "course": "FNAR-337"
+  }
+]

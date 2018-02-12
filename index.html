@@ -2,15 +2,310 @@
 <html>
 <head>
   <title>Course Demand @ Penn</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 </head>
 <body>
-  <h1>This is me</h1>
-  <script>
-    $('h1').text("Hallo");
-  </script>
-  <script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+  <div class="content">
+    <div class="navi">
+      <div class="content">
+        <h1>What are the 🔥 courses at Penn?</h1>
+        <h3 style="margin-top: -0.2em">OIDD 215 project: Course Analysis</h3>
+      </div>
+    </div>
+    <div class="spacer"></div>
+
+    <div id="intro" class="section">
+      <h2>Introduction</h2>
+      <p>
+        Course registration is a stressful time for students at Penn. Whether it's trying to strike the
+        balance between work load, difficulty, and quality, or weighing the probabilities of getting into a
+        course when ranking them, students spend needless hours stressing over issues around registration rather
+        than their academics. I hope this analysis provides you insights around student reviews and demands
+        around courses at Penn and maybe even ease your selection and registration processes.
+      </p>
+    </div>
+
+    <div id="sources" class="section">
+      <h2>Sources</h2>
+      <p>
+        There are two datasets in this project: Penn Course Review and Penn Course Alert data sets.
+        The Penn Course Review data was pulled from the <a href="http://pennlabs.org/docs/pcr.html">
+          Penn Course Review API</a>. As a member of Penn Labs, I was able to get access to the
+          <a href="penncoursealert.com">Penn Course Alert</a> data, which consists of data from
+          requests made by students through the PCA service.
+      </p>
+      <p>
+        Penn Course Review data provides insights on a course, listed by semester, year, and professor,
+        through reviews and ratings provided by students at the end of the semester. The API returns a JSON
+        that consists of this information.
+      </p>
+      <p>
+        Penn Course Alert provides a notification service to students regarding when a closed course becomes available.
+        Students sign up to get notified via text or email. The data PCA collects is the number of times students
+        request to get notified for a specific course. This can be used as a proxy for how in-demand a course is.
+        Added to the PCA data to help with the visualization was a table of departments by school. I collected this data
+        through Penn's academic curriculum portion of their website. I copy and pasted these values into a table in my
+        PCA data set to then use a <code>VLOOKUP</code> to correspond departments to schools for each course.
+      </p>
+    </div>
+
+    <div id="project" class="section">
+      <h2>Project</h2>
+      <h4>Introduction</h4>
+      <p>
+        As a student at Penn, I wanted to get a deeper understanding of what makes a course "hot", and therefore
+        becomes in such high demand that students are still trying to get in post advanced registration. Through the
+        two data sets I have, I wanted to dive deeper into what these courses are, what drives their demand, and hopefully
+        provide some conclusions that will be insightful for future course selection processes. <br />
+        My initial hypothesis is that courses that are ranked very low in course work or
+        difficulty, courses taught by highly ranked professors, low capacity, are core courses, or courses with high quality will
+        surface as the courses students make requests through PCA for. <br />
+        The data used in this analysis is 2018 Spring PCA data and 2016 Spring PCR data (the last time PCR was updated). I wanted to
+        match the semesters as best as possible and aimed to select data from similar semesters.
+      </p>
+      <div class="spacer-1"></div>
+      <h4>Collecting &amp; Cleaning</h4>
+      <p>
+        The dataset was a bit tricky to collect and clean. First, I identified the courses that students made requests
+        for as the sample I wanted to focus on. After getting that data from MongoDB using <code>mongodump</code> and converting BSON to JSON,
+        I cleaned the course queries since there wasn't sufficient error handling in the form (some queries produced incorrect
+        course codes that would result in an error when using that to pull PCR data). Furthermore, I used a pivot table
+        to aggregate course sections into one count value per course. <br />
+
+        Then, I loaded the course identifiers
+        into an array for which I wrote a script that pulled data for each one of the courses listed in PCA (script can
+        be found on my <a href="http://www.github.com/tifchang/oidd215_proj1">Github</a>). From there, I converted my JSON
+        file into a CSV file, for which I was able to clean and parse through using Excel and combine with the PCA data.
+      </p>
+      <p>
+        Once the data was well structured, I loaded it into Tableau with an inner join on course code, and created visualizations
+        that best surfaced reasons behind highly demanded courses.
+      </p>
+      <div class="spacer-1"></div>
+      <h4>About the Data</h4>
+      <p>Penn Course Review Data</p>
+      <table class="table is-bordered is-narrow">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td><code>Course</code></td>
+              <td>Course code without section</td>
+            </tr>
+            <tr>
+              <td><code>Instructor Name</code></td>
+              <td>Instructor's full name</td>
+            </tr>
+            <tr>
+              <td><code>Num Reviewers</code></td>
+              <td>Course code without section</td>
+            </tr>
+            <tr>
+              <td><code>Num Reviewers</code></td>
+              <td>Number of students that opted in to review the course</td>
+            </tr>
+            <tr>
+              <td><code>Num Students</code></td>
+              <td>Number of students in the course</td>
+            </tr>
+            <tr>
+              <td><code>Amount Learned</code> <code>Comm Ability</code> <code>
+                Course Quality</code> <code>Difficulty</code> <code>Instructor Access
+                  </code> <code>Instructor Quality</code> <code>Reading Value</code> <code>
+                    Stimulate Interest</code> <code>TA Quality</code> <code>Work Required</code> <code>Recommend Major</code>
+                    <code>Recommend Non-major</code></td>
+              <td>Rated on a scale from 1-5. 1: low, poor, do not recommend. 5: high, great, strongly recommend.</td>
+            </tr>
+            <tr>
+              <td><code>Section Name</code></td>
+              <td>Name of the course</td>
+            </tr>
+            <tr>
+              <td><code>Primary Alias</code></td>
+              <td>Full course code</td>
+            </tr>
+        </tbody>
+      </table>
+      <br />
+      <p>Penn Course Alert Data</p>
+      <table class="table is-bordered is-narrow">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td><code>Course</code></td>
+              <td>Course code without section</td>
+            </tr>
+            <tr>
+              <td><code>Number of Requests</code></td>
+              <td>Number of unique (different students) requests were made for a specific course. <br />
+              These do not count recurring requests, simply whether or not a student ever made a request.</td>
+            </tr>
+            <tr>
+              <td><code>School</code></td>
+              <td>School the course belongs to based off department</td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="spacer"></div>
+      <h4>Results</h4>
+      <p><b>Most Requested Courses</b></p>
+      <div class="viz">
+        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 800px;'><object class='tableauViz' width='98%' height='800px' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;NumberofRequestsperCourse' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
+      <br />
+      <p>
+        Grouping the courses by school and defining the size by the number of requests made for a specific course
+        surfaces a common trend across highly demanded courses. Courses like <code>MKTG-101</code>, <code>MGMT-101</code>,
+        <code>BEPP-250</code>, &amp; <code>MKTG-101</code> are courses in the core Wharton curriculum. Courses like <code>MATH-114</code>,
+        <code>ECON-002</code>, &amp; <code>PSYC-170</code> are introduction and prerequisite courses, required across majors
+        not only in the college. <br />
+        During the spring semester, seniors graduating needing to fulfill core requirements or underclassmen (freshmen) looking to take prerequisites
+        for upper level courses could be the primary users driving the influx of demand. These motives are time sensitive.
+        Therefore, 
+      </p>
+      <div class="spacer"></div>
+      <p><b>Course Demand by Capacity</b></p>
+      <div class="viz">
+        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 820px;'><object class='tableauViz' width='98%' height='820px' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='dembycap&#47;DemandbyCapacity' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
+      </div>
+        <p>
+          I am going to say something insightful.
+        </p>
+      <div class="spacer"></div>
+      <p><b>Course Demand by Instructor Quality &amp; Difficulty</b></p>
+      <div class="viz">
+        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 755px;'><object class='tableauViz' width='98%' height='755' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
+        <br />
+        <p>
+          I am going to say something insightful.
+        </p>
+
+    <div id="me" class="section">
+      <h2>Me</h2>
+      <p>
+        My name is Tiffany Chang and I am a junior in Wharton studying OIDD &amp; Statistics minoring in
+        Computer Science. I am originally from Honolulu, HI and spend most of my time in product
+        design related activities. On campus, I am involved in the Women's Club Volleyball Team, Hawaii Club
+        and Penn Labs.
+      </p>
+    </div>
+
+
+  </div>
+  <div class="feet">
+    <div class="spacer-2"></div>
+    <a href="#intro">Introduction</a>
+    <a href="#sources">Sources</a>
+    <a href="#project">Project</a>
+    <a href="#me">Me</a>
+    <div class="spacer-2"></div>
+  </div>
+
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"></script>
+  <style>
+    .content {
+      padding: 2em;
+      padding-left: 10em;
+      padding-right: 10em;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .section {
+      text-align: left;
+    }
+    .viz {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feet {
+      height: 3em;
+      width: 100%;
+      padding: 0.2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #eff2f7;
+      position: fixed;
+      bottom: 0px;
+      box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.07);
+    }
+    table th {
+      font-family:"Andale Mono", AndaleMono, monospace;
+    }
+    .spacer-2 {
+      width: 10px;
+      height: 100%;
+    }
+    code {
+      background-color: #edeff2 !important;
+      border-radius: 3px;
+    }
+    h1 {
+        font-family: "Andale Mono", AndaleMono, monospace;
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+        text-align: center;
+      }
+    h2 {
+        font-family: "Andale Mono", AndaleMono, monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+      }
+    h3 {
+        font-family: "Andale Mono", AndaleMono, monospace;
+        font-size: 12px;
+        color: #a8a8a8 !important;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+        text-align: center;
+      }
+    h4 {
+        font-family: "Andale Mono", AndaleMono, monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 600;
+        line-height: 26.4px;
+      }
+
+    a {
+      font-family: "Andale Mono", AndaleMono, monospace;
+    }
+    p {
+      font-family: "Andale Mono", AndaleMono, monospace;
+      color: #8c8c8c !important;
+      font-size: 17px;
+    }
+    .spacer {
+      height: 4em;
+      width: 100%;
+    }
+    .spacer-1 {
+      height: 2em;
+      width: 100%;
+    }
+    html {
+      background-color: #f7f9f9;
+    }
+  </style>
 </body>
 </html>
