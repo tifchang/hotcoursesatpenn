@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 </head>
 <body>
-  <div class="content">
+  <div class="hello">
     <div class="navi">
       <div class="content">
         <h1>What are the 🔥 courses at Penn?</h1>
@@ -82,8 +82,8 @@
         that best surfaced reasons behind highly demanded courses.
       </p>
       <div class="spacer-1"></div>
-      <h4>About the Data</h4>
-      <p>Penn Course Review Data</p>
+      <h4>About the Data</h4> <br />
+      <p>Penn Course Review Data</p> <br />
       <table class="table is-bordered is-narrow">
         <thead>
           <tr>
@@ -131,7 +131,7 @@
         </tbody>
       </table>
       <br />
-      <p>Penn Course Alert Data</p>
+      <p>Penn Course Alert Data</p> <br />
       <table class="table is-bordered is-narrow">
         <thead>
           <tr>
@@ -156,8 +156,8 @@
         </tbody>
       </table>
       <div class="spacer"></div>
-      <h4>Results</h4>
-      <p><b>Most Requested Courses</b></p>
+      <h4>Results</h4> <br />
+      <p><b>Demand by Core &amp; Prerequisites</b></p> <br />
       <div class="viz">
         <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 800px;'><object class='tableauViz' width='98%' height='800px' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;NumberofRequestsperCourse' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
       <br />
@@ -169,25 +169,77 @@
         not only in the college. <br />
         During the spring semester, seniors graduating needing to fulfill core requirements or underclassmen (freshmen) looking to take prerequisites
         for upper level courses could be the primary users driving the influx of demand. These motives are time sensitive.
-        Therefore, 
-      </p>
-      <div class="spacer"></div>
-      <p><b>Course Demand by Capacity</b></p>
-      <div class="viz">
-        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 820px;'><object class='tableauViz' width='98%' height='820px' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='dembycap&#47;DemandbyCapacity' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
+      </p> <br />
+      <div class="notification is-link" >
+        ⚠️ <b>Recommendation:</b>
+        When ranking courses for advanced registration, be mindful of core and prerequisite classes and reference this visual to
+        see which core courses may be more difficult to get into. Since this may also be a time sensitive issue (your academic
+        schedule would be set back if you didn't get into the course), be sure to rank a core class you want to get into near the top.
       </div>
-        <p>
-          I am going to say something insightful.
-        </p>
       <div class="spacer"></div>
-      <p><b>Course Demand by Instructor Quality &amp; Difficulty</b></p>
+      <p><b>Demand by Capacity</b></p> <br />
       <div class="viz">
-        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 755px;'><object class='tableauViz' width='98%' height='755' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>      </div>
+          <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 820px;'><object class='tableauViz' width='98%' height='820px' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;DemandbyCapacity' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+      </div>
         <br />
-        <p>
-          I am going to say something insightful.
-        </p>
+      <p>
+        I calculated Demand (d) by taking the ratio of requests to the capacity of the course. Since you can only
+        make requests to get notified if the course is closed, we can already assume that there is exceeding demand
+        for these courses. However, diving into the demand, I created four levels of demand to show the gradient
+        of demand: Low (0.005 ≤ d < 0.5), Medium (0.5 ≤ d < 1), High (1 ≤ d < 3), Super High (3 ≤ d < 4).
+      </p>
+      <p>
+        The first thing we notice is that most of the requests were made for courses with low capacities, as points
+        aggregate near the origin. Considering points near the origin, as well as points with large counts of
+        requests, we notice that those are the higher demanded courses. Once again, we see required classes surfacing
+        such as <code>WRIT-002</code>, which is Writing Seminar. Its capacity is very low with 10 seats and is in
+        high demand with 67 students trying to get in.
+      </p> <br />
+        <div class="notification is-link" >
+          ⚠️ <b>Recommendation:</b>
+          Be mindful of small courses with low capacities. They are more difficult to get into simply by chance of getting
+          one of the few seats. When ranking your courses, place smaller classes at the top. This does not include the
+          size of recitations but specifically regarding the entire course's size.
+        </div>
+      <div class="spacer"></div>
+      <p><b>Demand by Instructor Quality &amp; Difficulty</b></p> <br />
+      <div class="viz">
+        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 98%; height: 755px;'><object class='tableauViz' width='98%' height='755' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;coursedemandatpenn' /><param name='name' value='numreqpercourse&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+      </div>
+      <br />
+      <p>
+        Most courses requested have professors that are above average. In the visual, this is denoted by most of the points aggregating
+        above the average Instructor Quality line. It is sensible that students would want to be taking classes with quality
+        professors. However, I wanted to also add some dimension with students rating professors highly because of course difficulty
+        and their overall experience tainting their accurate assessment of the instructor's quality. Therefore, I added a color
+        dimension that helped group instructors based off the difficulty of their course as well.
+      </p>
+      <p>
+        The difficulty seems to be dispersed evenly across all instructor qualities. Therefore, we can focus in on the instructor's
+        quality and note that students tend to make more requests for higher rated professors. We can see here that courses like
+        <code>MKTG-476/776</code> surface, which are not prerequisites or core classes but are courses with highly rated professors, in
+        this case Peter Fader at 3.7.
+      </p> <br />
+      <div class="notification is-link" >
+        ⚠️ <b>Recommendation:</b>
+        If the professor is rated highly, the course could have significant demand. However, in comparison to the previous two parameters,
+        professor quality is not as strong of a driver as course requirement and capacity.
+      </div>
+    </div>
 
+    <div class="section">
+      <h4>Disclaimers &amp; Looking Forward</h4> <br />
+      <p>
+        The data I used for PCA was the first round of collection since the product was built and released in late fall of 2017
+        when advanced registration opened. Therefore, the data is not perfect and can only give a rough glimpse at the motives
+        behind course selection at Penn. This data does not account for the same person making recurring requests for one courses
+        since new requests overwrite old requests. Furthermore, I could not account for requests to recitations versus lectures or
+        if students were already in a course but simply wanted to switch sections. However, this type of behavior as well as the
+        simple fact that there are a lot of students that are dissatisfied with their courses and want to get into other courses
+        yields the potential of building products that allow students to swap courses, recitations, lectures and more in order to
+        meet the supply and demands of courses, as students occasionally will need to drop a course to add another.
+      </p>
+    </div>
     <div id="me" class="section">
       <h2>Me</h2>
       <p>
@@ -197,8 +249,6 @@
         and Penn Labs.
       </p>
     </div>
-
-
   </div>
   <div class="feet">
     <div class="spacer-2"></div>
@@ -209,10 +259,9 @@
     <div class="spacer-2"></div>
   </div>
 
-
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"></script>
   <style>
-    .content {
+    .hello {
       padding: 2em;
       padding-left: 10em;
       padding-right: 10em;
@@ -230,6 +279,7 @@
     }
     .feet {
       height: 3em;
+      z-index: 5;
       width: 100%;
       padding: 0.2em;
       display: flex;
@@ -251,26 +301,32 @@
       background-color: #edeff2 !important;
       border-radius: 3px;
     }
+    ul {
+      font-family: "Andale Mono", AndaleMono, monospace;
+      color: #8c8c8c !important;
+    }
     h1 {
         font-family: "Andale Mono", AndaleMono, monospace;
-        font-size: 24px;
+        font-size: 30px !important;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;
         line-height: 26.4px;
         text-align: center;
+        margin-bottom: 20px;
       }
     h2 {
         font-family: "Andale Mono", AndaleMono, monospace;
-        font-size: 15px;
+        font-size: 20px !important;
         font-style: normal;
         font-variant: normal;
         font-weight: 500;
         line-height: 26.4px;
+        margin-bottom: 20px;
       }
     h3 {
         font-family: "Andale Mono", AndaleMono, monospace;
-        font-size: 12px;
+        font-size: 20px !important;
         color: #a8a8a8 !important;
         font-style: normal;
         font-variant: normal;
@@ -280,7 +336,6 @@
       }
     h4 {
         font-family: "Andale Mono", AndaleMono, monospace;
-        font-size: 15px;
         font-style: normal;
         font-variant: normal;
         font-weight: 600;
